@@ -1,137 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0129f776-e3b7-4b5d-87c0-5593dc1efe46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.idea/synswap-web-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Loan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/LoanBuilder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/LoanRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dotnet-azure-fhir-web-api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/dotnet-azure-fhir-web-api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/material-dashboard-react.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/angular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/dashboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/edge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/firefox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/map.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/md-react.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/notifications.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/opera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/opt_md_angular_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/opt_md_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/opt_md_vue_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/opt_mdr_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/safari.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/tables.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/userprofile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/github/vuejs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/cover.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/faces/marc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/new_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/reactlogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/sidebar-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/sidebar-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/sidebar-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/sidebar-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/img/tim_80x80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/cardImagesStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/checkboxAdnRadioStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/buttonStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/cardAvatarStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/cardBodyStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/cardFooterStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/cardHeaderStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/cardIconStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/cardStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/customInputStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/customTabsStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/footerStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/headerLinksStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/headerStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/rtlHeaderLinksStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/sidebarStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/snackbarContentStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/tableStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/tasksStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/components/typographyStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/dropdownStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/layouts/adminStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/layouts/rtlStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/tooltipStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/views/dashboardStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/views/iconsStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/jss/material-dashboard-react/views/rtlStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Card/Card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Card/CardAvatar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Card/CardBody.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Card/CardFooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Card/CardHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Card/CardIcon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/CustomButtons/Button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/CustomInput/CustomInput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/CustomTabs/CustomTabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/FixedPlugin/FixedPlugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Footer/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Grid/GridContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Grid/GridItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Navbars/AdminNavbarLinks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Navbars/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Sidebar/Sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Snackbar/Snackbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Snackbar/SnackbarContent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Table/Table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Tasks/Tasks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Typography/Danger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Typography/Info.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Typography/Muted.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Typography/Primary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Typography/Quote.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Typography/Success.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Typography/Warning.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/dashboard/Chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/dashboard/Dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/dashboard/Deposits.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/dashboard/Orders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/dashboard/Title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/dashboard/listItems.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/layouts/Admin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/reducers/AuthReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/reducers/PatientReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/variables/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/variables/general.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/Dashboard/Dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/Icons/Icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/Maps/Maps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/Notifications/Notifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/RTLPage/RTLPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/TableList/TableList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/Typography/Typography.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/UpgradeToPro/UpgradeToPro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/UserProfile/UserProfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="0129f776-e3b7-4b5d-87c0-5593dc1efe46" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,12 +269,12 @@
       <workItem from="1581339025566" duration="24188000" />
       <workItem from="1581901269254" duration="16869000" />
       <workItem from="1583263078420" duration="4909000" />
-      <workItem from="1583331455725" duration="8307000" />
+      <workItem from="1583331455725" duration="8564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54273000" />
+    <option name="totallyTimeSpent" value="54530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="0" />

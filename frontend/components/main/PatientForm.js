@@ -15,7 +15,6 @@ import {
 } from "@material-ui/core";
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import { makeStyles } from '@material-ui/core/styles';
-import axios from 'axios';
 
 function Copyright() {
     return (
@@ -156,7 +155,7 @@ export default function PatientInfoForm(props) {
                         />
                     </Grid>
 
-                    <Divider />
+                    <Divider dark={ true }/>
 
                     <Grid item xs={ 12 } style={{ marginTop: 2, marginBottom: 2 }}>
                         <Typography component="h1" variant="overline">
@@ -184,7 +183,7 @@ export default function PatientInfoForm(props) {
                         />
                     </Grid>
 
-                    <Divider />
+                    <Divider dark={ true }/>
 
                     <Grid item xs={ 12 } style={{ marginTop: 2, marginBottom: 2 }}>
                         <Typography component="h1" variant="overline">
@@ -255,6 +254,7 @@ export default function PatientInfoForm(props) {
                     variant="contained"
                     type="submit"
                     style={{ marginTop: 20 }}
+                    onClick={ () => props.onClick(basicInfo, contact, activity) }
                 >
                     Submit
                 </Button>

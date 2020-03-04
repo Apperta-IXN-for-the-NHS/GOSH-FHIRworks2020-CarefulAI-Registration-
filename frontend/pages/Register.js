@@ -11,8 +11,14 @@ const Register = () => {
     useEffect(() => {
         console.log(patient);
     }, []);
+
+    const onClick = (basicInfo, contact, activity) => {
+        console.log(basicInfo, "Basic Info");
+        console.log(contact, "Contacts");
+        console.log(activity, "Activity");
+    };
     return (
-        <PatientForm patient={ patient }/>
+        <PatientForm patient={ patient } onClick={ onClick }/>
     );
 };
 
