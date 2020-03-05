@@ -74,5 +74,10 @@
 - Navigate to [http://localhost:8080](https://localhost:8080) to see the embedded iframe
 - The http-server is displaying the **index.html** page at the root of the package directory
 - You may add new .html pages (or modify index) to use the package in your website
+
+## Scope of Functionality
+
+- The app takes a patient name and date of birth and searches the FHIR database to obtain their record (logs the record on success)
+- The patient's name, phone number, and region are then added to the Register form which obtains care network and activity data and logs it out 
       
 
