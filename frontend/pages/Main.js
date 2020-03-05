@@ -7,11 +7,7 @@ import getHost from '../utils/Auth/get-host';
 import axios from "axios";
 import { Snackbar } from "@material-ui/core";
 import WelcomeForm from '../components/main/WelcomeForm'
-import MuiAlert from '@material-ui/lab/Alert';
-
-function Alert(props) {
-    return <MuiAlert elevation={6} variant="filled" {...props} />;
-}
+import Alert from '../components/main/Alert';
 
 const Main = () => {
     const [patientData, setPatientData]  = useState(null);
