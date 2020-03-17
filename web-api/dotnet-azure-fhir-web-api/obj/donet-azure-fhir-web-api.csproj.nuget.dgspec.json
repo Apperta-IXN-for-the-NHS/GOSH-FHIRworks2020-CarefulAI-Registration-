@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/donet-azure-fhir-web-api.csproj": {}
+  },
+  "projects": {
+    "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/donet-azure-fhir-web-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/donet-azure-fhir-web-api.csproj",
+        "projectName": "donet-azure-fhir-web-api",
+        "projectPath": "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/donet-azure-fhir-web-api.csproj",
+        "packagesPath": "/Users/jjmacakiage/.nuget/packages/",
+        "outputPath": "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jjmacakiage/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

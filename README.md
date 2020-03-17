@@ -16,7 +16,7 @@
 
 # 
 - Clone the project and open it in Visual Studio Code.
-- Navigate to **api/dotnet-azure-fhir-web-api**
+- Navigate to **web-api/dotnet-azure-fhir-web-api**
 - Open the file **appsettings.json**
 
 
