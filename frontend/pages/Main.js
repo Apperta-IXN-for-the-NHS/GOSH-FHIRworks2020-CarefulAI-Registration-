@@ -62,7 +62,6 @@ const Main = () => {
 
     useEffect(() => {
         fetchPatient();
-
     }, []);
 
     useEffect(() => {
