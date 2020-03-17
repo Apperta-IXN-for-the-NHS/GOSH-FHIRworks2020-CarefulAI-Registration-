@@ -104,4 +104,7 @@ dist
 .tern-port
 
 web-api/.DS_Store
+
 .DS_Store
+
+.idea
