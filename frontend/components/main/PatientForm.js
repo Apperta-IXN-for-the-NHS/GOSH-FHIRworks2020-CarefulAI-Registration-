@@ -19,9 +19,9 @@ import { makeStyles } from '@material-ui/core/styles';
 function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
-            {'Copyright © '}
+            {'Developed by'}
             <Link color="inherit" href="/">
-                Derrick Macakiage 18011989 CarefulAI FHIR Hackathon 2020
+                Derrick Macakiage for CarefulAI FHIR Hackathon 2020
             </Link>{' '}
             {new Date().getFullYear()}
             {'.'}

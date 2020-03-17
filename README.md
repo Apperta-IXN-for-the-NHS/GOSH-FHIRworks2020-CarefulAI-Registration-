@@ -20,7 +20,6 @@
 - Open the file **appsettings.json**
 
 
-    ```json
     {
       "Logging": {
         "LogLevel": {
@@ -36,7 +35,7 @@
       "BaseAddress": "",
       "Scope": ""
     }
-    ```
+    
 - Replace the empty fields with the Azure FHIR API credentials you have been given.
 - Save the file.
 - Navigate to the directory **dotnet-azure-fhir-web-api** using the terminal inside Visual Studio Code.
@@ -62,17 +61,18 @@
     ```
     sudo npm install -g http-server
     ```
-- Navigate to the **frontend** directory and start the application
+- Navigate to the **frontend** directory and start the application using
 
     ```
     npm run dev
     ```
-    then
+    then, in a new terminal tab, navigate back to the root directory and run
     ```
     http-server
     ```
-- Navigate to [http://localhost:8080](https://localhost:8080) to see the embedded iframe
+- Navigate to [http://localhost:8080/index.html](https://localhost:8080/index.html) to see the embedded iframe
 - The http-server is displaying the **index.html** page at the root of the package directory
+- To adjust the frame size adjust the width and height attributes in the iframe tag in **index.html**
 - You may add new .html pages (or modify index) to use the package in your website
 
 ## Scope of Functionality

@@ -13250,11 +13250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/donet-azure-fhir-web-api.csproj",
+      "projectUniqueName": "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/donet-azure-fhir-web-api.csproj",
       "projectName": "donet-azure-fhir-web-api",
-      "projectPath": "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/donet-azure-fhir-web-api.csproj",
+      "projectPath": "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/donet-azure-fhir-web-api.csproj",
       "packagesPath": "/Users/jjmacakiage/.nuget/packages/",
-      "outputPath": "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/obj/",
+      "outputPath": "/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

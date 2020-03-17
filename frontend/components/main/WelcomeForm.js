@@ -12,14 +12,14 @@ import {
 } from "@material-ui/core";
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import { makeStyles } from '@material-ui/core/styles';
-import Router from 'next/router';
+
 
 function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
-            {'Copyright © '}
+            {'Developed by'}
             <Link color="inherit" href="/">
-                Derrick Macakiage 18011989 CarefulAI FHIR Hackathon 2020
+                Derrick Macakiage for CarefulAI FHIR Hackathon 2020
             </Link>{' '}
             {new Date().getFullYear()}
             {'.'}

@@ -26,3 +26,17 @@
 /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.RazorTargetAssemblyInfo.cache
 /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.dll
 /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.pdb
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1/donet-azure-fhir-web-api.deps.json
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1/donet-azure-fhir-web-api.runtimeconfig.json
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1/donet-azure-fhir-web-api.runtimeconfig.dev.json
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1/donet-azure-fhir-web-api.dll
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1/donet-azure-fhir-web-api.pdb
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.csprojAssemblyReference.cache
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.csproj.CoreCompileInputs.cache
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.RazorAssemblyInfo.cache
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.RazorAssemblyInfo.cs
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.AssemblyInfoInputs.cache
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.AssemblyInfo.cs
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.RazorTargetAssemblyInfo.cache
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.dll
+/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/obj/Debug/netcoreapp2.1/donet-azure-fhir-web-api.pdb
