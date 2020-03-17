@@ -1,0 +1,296 @@
+2020-03-17 22:13:29.8121 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-03-17 22:13:30.0095 Debug Found assembly location directory: '/Users/jjmacakiage/.nuget/packages/nlog/4.6.7/lib/netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-03-17 22:13:30.0120 Debug Search for auto loading files in location: /Users/jjmacakiage/.nuget/packages/nlog/4.6.7/lib/netstandard2.0
+2020-03-17 22:13:30.0275 Debug Found assembly location directory: '/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1' (donet-azure-fhir-web-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-03-17 22:13:30.0275 Debug Search for auto loading files in location: /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1
+2020-03-17 22:13:30.0275 Debug Auto loading based on AppDomain-BaseDirectory found location: /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1
+2020-03-17 22:13:30.0286 Debug Search for auto loading files in location: /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1
+2020-03-17 22:13:30.0286 Debug Start auto loading, location: /Users/jjmacakiage/.nuget/packages/nlog/4.6.7/lib/netstandard2.0
+2020-03-17 22:13:30.0367 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-03-17 22:13:30.0367 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-03-17 22:13:30.0377 Debug Auto loading done
+2020-03-17 22:13:30.0401 Info Message Template Auto Format enabled
+2020-03-17 22:13:30.0758 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.0811 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-17 22:13:30.1058 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-03-17 22:13:30.1837 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2020-03-17 22:13:30.1837 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.1837 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-17 22:13:30.1857 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.1857 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-17 22:13:30.1878 Trace  Scanning Property Culture '' System.Globalization
+2020-03-17 22:13:30.1907 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-17 22:13:30.1907 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-17 22:13:30.1907 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-17 22:13:30.1918 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-17 22:13:30.1918 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.1918 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-03-17 22:13:30.1918 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.1925 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-17 22:13:30.2024 Debug Setting 'FileTarget.name' to 'logfile'
+2020-03-17 22:13:30.2029 Debug Setting 'FileTarget.fileName' to '${currentdir}\Logs\${shortdate}_logfile.txt'
+2020-03-17 22:13:30.2029 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.2039 Trace Scanning CurrentDirLayoutRenderer 'Layout Renderer: ${currentdir}'
+2020-03-17 22:13:30.2051 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.2051 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-03-17 22:13:30.2067 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-03-17 22:13:30.2067 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.2067 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-17 22:13:30.2067 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-03-17 22:13:30.2076 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2020-03-17 22:13:30.2076 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.2076 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-17 22:13:30.2076 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.2076 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-17 22:13:30.2076 Trace  Scanning Property Culture '' System.Globalization
+2020-03-17 22:13:30.2076 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-17 22:13:30.2076 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-17 22:13:30.2085 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-17 22:13:30.2085 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-17 22:13:30.2085 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-17 22:13:30.2085 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-17 22:13:30.2085 Info Adding target FileTarget(Name=logfile)
+2020-03-17 22:13:30.2110 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-03-17 22:13:30.2120 Trace ParseRulesElement
+2020-03-17 22:13:30.2340 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-03-17 22:13:30.2417 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-03-17 22:13:30.3570 Debug Watching path '/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api' filter 'nlog.config' for changes.
+2020-03-17 22:13:30.3591 Debug --- NLog configuration dump ---
+2020-03-17 22:13:30.3591 Debug Targets:
+2020-03-17 22:13:30.3607 Debug File Target[logfile]
+2020-03-17 22:13:30.3607 Debug Rules:
+2020-03-17 22:13:30.3636 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-03-17 22:13:30.3636 Debug --- End of NLog configuration dump ---
+2020-03-17 22:13:30.3684 Trace FindReachableObject<System.Object>:
+2020-03-17 22:13:30.3686 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-03-17 22:13:30.3686 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-03-17 22:13:30.3686 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-03-17 22:13:30.3699 Trace   Scanning Property FileName ''${currentdir}\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-03-17 22:13:30.3699 Trace   Scanning SimpleLayout ''${currentdir}\Logs\${shortdate}_logfile.txt''
+2020-03-17 22:13:30.3699 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-17 22:13:30.3699 Trace    Scanning CurrentDirLayoutRenderer 'Layout Renderer: ${currentdir}'
+2020-03-17 22:13:30.3699 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-17 22:13:30.3707 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-03-17 22:13:30.3707 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-17 22:13:30.3716 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-03-17 22:13:30.3716 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-03-17 22:13:30.3716 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-17 22:13:30.3725 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-17 22:13:30.3725 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-17 22:13:30.3725 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-17 22:13:30.3725 Trace     Scanning Property Culture '' System.Globalization
+2020-03-17 22:13:30.3725 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-17 22:13:30.3725 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-17 22:13:30.3725 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-17 22:13:30.3736 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-17 22:13:30.3736 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-17 22:13:30.3736 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-17 22:13:30.3736 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-03-17 22:13:30.3746 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2020-03-17 22:13:30.3746 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-03-17 22:13:30.3756 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-03-17 22:13:30.3756 Info Found 15 configuration items
+2020-03-17 22:13:30.3769 Trace Initializing Layout Renderer: ${message}
+2020-03-17 22:13:30.3769 Trace Initializing Layout Renderer: ${literal}
+2020-03-17 22:13:30.3769 Trace Initializing Layout Renderer: ${level}
+2020-03-17 22:13:30.3776 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-03-17 22:13:30.3807 Trace FindReachableObject<System.Object>:
+2020-03-17 22:13:30.3807 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-17 22:13:30.3807 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-17 22:13:30.3807 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-17 22:13:30.3840 Trace Initializing Layout Renderer: ${uppercase}
+2020-03-17 22:13:30.3845 Trace Initializing Layout Renderer: ${literal}
+2020-03-17 22:13:30.3845 Trace Initializing Layout Renderer: ${longdate}
+2020-03-17 22:13:30.3845 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-03-17 22:13:30.3845 Trace FindReachableObject<System.Object>:
+2020-03-17 22:13:30.3845 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-03-17 22:13:30.3845 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-17 22:13:30.3856 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-17 22:13:30.3856 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-17 22:13:30.3856 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-17 22:13:30.3856 Trace   Scanning Property Culture '' System.Globalization
+2020-03-17 22:13:30.3856 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-17 22:13:30.3865 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-17 22:13:30.3865 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-17 22:13:30.3865 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-17 22:13:30.3865 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-17 22:13:30.3865 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-17 22:13:30.3878 Trace Initializing Layout Renderer: ${literal}
+2020-03-17 22:13:30.3878 Trace Initializing Layout Renderer: ${shortdate}
+2020-03-17 22:13:30.3878 Trace Initializing Layout Renderer: ${literal}
+2020-03-17 22:13:30.3878 Trace Initializing Layout Renderer: ${currentdir}
+2020-03-17 22:13:30.3878 Trace Initializing '${currentdir}\Logs\${shortdate}_logfile.txt'
+2020-03-17 22:13:30.3878 Trace FindReachableObject<System.Object>:
+2020-03-17 22:13:30.3886 Trace Scanning SimpleLayout ''${currentdir}\Logs\${shortdate}_logfile.txt''
+2020-03-17 22:13:30.3886 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-17 22:13:30.3886 Trace  Scanning CurrentDirLayoutRenderer 'Layout Renderer: ${currentdir}'
+2020-03-17 22:13:30.3886 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-17 22:13:30.3886 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-03-17 22:13:30.3886 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-17 22:13:30.3886 Trace Initializing File Target[logfile]
+2020-03-17 22:13:30.3936 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-03-17 22:13:30.3936 Trace Scanning FileTarget 'File Target[logfile]'
+2020-03-17 22:13:30.3936 Trace  Scanning Property FileName ''${currentdir}\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-03-17 22:13:30.3936 Trace  Scanning SimpleLayout ''${currentdir}\Logs\${shortdate}_logfile.txt''
+2020-03-17 22:13:30.3936 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-03-17 22:13:30.3936 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-03-17 22:13:30.3946 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-03-17 22:13:30.3946 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2020-03-17 22:13:30.3946 Trace File Target[logfile] has 2 layouts
+2020-03-17 22:13:30.3965 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-03-17 22:14:33.4123 Debug Targets for HDR_UK_Web_Application.Services.LoggerManager by level:
+2020-03-17 22:14:33.4123 Debug Trace =>
+2020-03-17 22:14:33.4135 Debug Debug => logfile
+2020-03-17 22:14:33.4135 Debug Info => logfile
+2020-03-17 22:14:33.4135 Debug Warn => logfile
+2020-03-17 22:14:33.4135 Debug Error => logfile
+2020-03-17 22:14:33.4135 Debug Fatal => logfile
+2020-03-17 22:14:33.5795 Debug FileTarget(Name=logfile): Process file '/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt' on startup
+2020-03-17 22:14:33.6006 Debug Creating file appender: /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt
+2020-03-17 22:14:33.6127 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:33.6357 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:33.6766 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:33.8923 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:39.2803 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:39.5937 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:39.8903 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:40.1243 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:40.3645 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:40.6105 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:40.8824 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:41.1309 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:41.3804 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:41.6248 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:41.8686 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:42.1533 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:42.3997 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:42.6767 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:42.9224 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:43.1758 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:43.4202 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:43.6745 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:43.9392 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:44.2293 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:44.5739 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:44.8088 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:45.0659 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:45.4724 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:45.7133 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:46.1755 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:46.6486 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:47.3384 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:47.5633 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:47.8666 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:48.1053 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:48.5593 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:48.8029 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:49.0617 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:49.5362 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:49.7736 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:50.0405 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:50.5233 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:50.7918 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:51.5172 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:51.9843 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:52.2455 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:52.4762 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:52.9159 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:53.1996 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:53.8990 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:54.1413 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:55.0634 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:55.3126 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:55.6564 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:56.0773 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:56.4483 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:57.0617 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:57.2966 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:58.1193 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:58.5400 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:58.9922 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:59.4570 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:59.7472 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:14:59.9929 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:00.4555 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:01.1726 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:01.4206 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:02.2235 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:02.4683 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:02.7702 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:03.0319 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:03.2821 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:03.5212 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:03.9655 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:04.2030 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:04.5822 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:04.8353 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:05.2204 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:05.4824 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:05.7252 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:06.1778 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:06.4154 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:06.9382 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:07.6720 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:07.9181 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:08.1534 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:08.3815 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:08.6232 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:08.8642 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:09.3182 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:09.5494 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:10.2252 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:10.4658 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:11.1424 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:11.3864 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:11.8388 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:12.5003 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:12.7614 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:13.0101 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:13.4733 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:13.7143 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:14.1696 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:14.5061 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:15.0763 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:15.3404 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:15.6359 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:16.1322 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:16.8901 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:17.1341 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:18.1872 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:18.7153 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:19.0912 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:19.3362 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:19.8289 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:20.2352 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:21.0054 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:21.3271 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:21.5602 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:21.8659 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:22.0959 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:22.5635 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:23.3023 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:15:23.5332 Trace Opening /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt with allowFileSharedWriting=False
+2020-03-17 22:17:34.9463 Info AppDomain Shutting down. Logger closing...
+2020-03-17 22:17:34.9541 Debug Stopping file watching for path '/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api' filter 'nlog.config'
+2020-03-17 22:17:34.9573 Debug Targets not configured for logger: HDR_UK_Web_Application.Services.LoggerManager
+2020-03-17 22:17:34.9594 Debug Closing logging configuration...
+2020-03-17 22:17:34.9609 Trace Closing File Target[logfile]
+2020-03-17 22:17:34.9620 Debug Closing target 'File Target[logfile]'.
+2020-03-17 22:17:34.9664 Trace FileTarget(Name=logfile): FinalizeFile '/Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt, isArchiving: False'
+2020-03-17 22:17:34.9709 Debug FileAppender Closing Invalidate - /Users/jjmacakiage/Desktop/Desktop – JJ’s MacBook Pro /UCL/Year 2/Systems Engineering/hackathon/web-api/dotnet-azure-fhir-web-api\Logs\2020-03-17_logfile.txt
+2020-03-17 22:17:34.9750 Debug Closed target 'File Target[logfile]'.
+2020-03-17 22:17:34.9750 Trace Closing '${currentdir}\Logs\${shortdate}_logfile.txt'
+2020-03-17 22:17:34.9759 Trace Closing Layout Renderer: ${currentdir}
+2020-03-17 22:17:34.9759 Trace Closing Layout Renderer: ${literal}
+2020-03-17 22:17:34.9768 Trace Closing Layout Renderer: ${shortdate}
+2020-03-17 22:17:34.9768 Trace Closing Layout Renderer: ${literal}
+2020-03-17 22:17:34.9768 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2020-03-17 22:17:34.9768 Trace Closing Layout Renderer: ${longdate}
+2020-03-17 22:17:34.9768 Trace Closing Layout Renderer: ${literal}
+2020-03-17 22:17:34.9777 Trace Closing Layout Renderer: ${uppercase}
+2020-03-17 22:17:34.9777 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2020-03-17 22:17:34.9777 Trace Closing Layout Renderer: ${level}
+2020-03-17 22:17:34.9777 Trace Closing Layout Renderer: ${literal}
+2020-03-17 22:17:34.9777 Trace Closing Layout Renderer: ${message}
+2020-03-17 22:17:34.9786 Debug Finished closing logging configuration.
+2020-03-17 22:17:34.9786 Info Logger has been shut down.
